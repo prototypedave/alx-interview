@@ -1,7 +1,7 @@
 #!/usr/bin/node
 /*  Star Wars Characters */
-const apiUrl = "https://swapi-api.hbtn.io/api/films/";
-const request = require('request')
+const apiUrl = 'https://swapi-api.hbtn.io/api/films/';
+const request = require('request');
 const movieId = process.argv[2];
 /* request from api */
 request(apiUrl + movieId, (error, response, body) => {
