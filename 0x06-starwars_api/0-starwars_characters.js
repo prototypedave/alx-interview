@@ -1,6 +1,6 @@
 #!/usr/bin/node
 /*  Star Wars Characters */
-const apiUrl = "https://alx-intranet.hbtn.io/films/";
+const apiUrl = "https://alx-intranet.hbtn.io/api/films/";
 const request = require('request')
 const movieId = process.argv[2];
 /* request from api */
