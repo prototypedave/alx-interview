@@ -3,10 +3,10 @@
 Change comes from within
 """
 
-"""from typing import List"""
+from typing import List
 
 
-def makeChange(coins, total):
+def makeChange(coins: List[int], total: int) -> int:
     """ determines the fewest amont of coins needed
     """
     if total < 1:
