@@ -1,4 +1,4 @@
-#!usr/bin/python3
+#!/usr/bin/python3
 """
 Island Perimeter Function
 """
@@ -8,6 +8,7 @@ def island_perimeter(grid):
     """
     calculates the distance around an island if any
     """
+    
     def edges(matrix):
         """ detect number of edges along horizontal direction """
         count = 0
