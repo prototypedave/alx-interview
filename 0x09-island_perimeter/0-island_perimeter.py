@@ -3,6 +3,7 @@
 Island Perimeter Function
 """
 
+
 def island_perimeter(grid):
     """
     calculates the distance around an island if any
