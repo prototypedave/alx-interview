@@ -7,7 +7,7 @@ prime game
 def isWinner(x, nums):
     """ checks for winner in a prime game
     """
-    
+
     def is_prime(n):
         """ Checks if a number is prime
         """
